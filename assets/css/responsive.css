@@ -1,0 +1,867 @@
+
+@media (max-width: 1799px) {
+
+	/*===================*/
+	/* HERO SECTION */
+	/*===================*/
+	/* DONATE FORM */
+	.hero__area img.hero__slide__img {
+		height: 90rem;
+	}
+
+	/*===================*/
+	/* PLAN SECTION  */
+	/*===================*/
+	.plan__video__btn {
+		left: 35%;
+		transform: translate(-35%, -50%);
+		-webkit-transform: translate(-35%, -50%);
+		-moz-transform: translate(-35%, -50%);
+		-ms-transform: translate(-35%, -50%);
+		-o-transform: translate(-35%, -50%);
+	}
+}
+
+@media (max-width: 1599px) {
+
+	/*===================*/
+	/* PLAN SECTION  */
+	/*===================*/
+	.Plan__img__area {
+		max-width: 100rem;
+	}
+
+	.plan__main__text {
+		max-width: 70rem;
+		top: 6%;
+	}
+
+	.Plan__img__area img {
+		height: 96rem;
+		-o-object-fit: cover;
+		object-fit: cover;
+	}
+
+	.plan__video__btn {
+		left: 45%;
+		transform: translate(-45%, -50%);
+		-webkit-transform: translate(-45%, -50%);
+		-moz-transform: translate(-45%, -50%);
+		-ms-transform: translate(-45%, -50%);
+		-o-transform: translate(45%, -50%);
+	}
+}
+
+@media (max-width: 1399px) {
+
+	/*=========================*/
+	/* REUSEBLE COMPONENTS */
+	/*=========================*/
+
+	/*=====================*/
+	/* HEADER SECTION */
+	/*=====================*/
+	.logo a img {
+		max-width: 17rem;
+		margin-left: -1rem;
+	}
+
+	.main__menu {
+		padding: 8rem 5rem;
+		position: fixed;
+		right: 0;
+		top: 0;
+		height: 100vh;
+		background: #002359;
+		width: 35%;
+		-webkit-transform: translateX(100%);
+		-ms-transform: translateX(100%);
+		transform: translateX(100%);
+		-webkit-transition: all 0.6s ease-in;
+		-o-transition: all 0.6s ease-in;
+		transition: all 0.6s ease-in;
+		z-index: 999 !important;
+		overflow-y: scroll;
+		-webkit-box-pack: start !important;
+		-ms-flex-pack: start !important;
+		justify-content: flex-start !important;
+		-webkit-box-align: start !important;
+		-ms-flex-align: start !important;
+		align-items: flex-start !important;
+	}
+
+	.main__menu.active {
+		-webkit-transform: translateX(0);
+		-ms-transform: translateX(0);
+		transform: translateX(0);
+	}
+
+	.main__menu ul {
+		width: 100%;
+	}
+
+	.main__menu li:not(:last-child) {
+		margin-right: 0;
+		margin-bottom: 2rem;
+	}
+
+	.main__menu ul li a {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	/*- SHOW && CLOSE MENU -*/
+	.main__menu-show {
+		right: 0;
+		-webkit-transition: all 0.6s ease-in;
+		-o-transition: all 0.6s ease-in;
+		transition: all 0.6s ease-in;
+	}
+
+	.main__menu-hide {
+		right: -100%;
+		-webkit-transition: all 0.5s linear;
+		-o-transition: all 0.5s linear;
+		transition: all 0.5s linear;
+	}
+
+	/* DROPDOWN MENU */
+	.main__menu ul > li:nth-child(2) .dropdown__hover__link svg,
+	.main__menu ul > li:nth-child(4) .dropdown__hover__link svg {
+		position: absolute;
+		top: .3rem;
+		right: -.6rem;
+	}
+
+	.dropdown__menu {
+		border: 0;
+		padding: 0;
+		position: static !important;
+		visibility: visible;
+		opacity: 1;
+		max-height: 0;
+		overflow: hidden;
+		background-color: transparent;
+	}
+
+	.dropdown__menu.active {
+		-webkit-transition: .3s linear;
+		-o-transition: .3s linear;
+		transition: .3s linear;
+	}
+
+	/* MENU SHOW && CLOSE ICON */
+	.menu__show__icon,
+	.menu__close__icon {
+		display: block;
+	}
+
+	/*=====================*/
+	/* HERO SECTION */
+	/*=====================*/
+	.hero__content {
+		max-width: 55rem;
+	}
+
+	.hero__content .hero__title h2 {
+		font-size: 6rem;
+	}
+
+	/* DONATE FORM */
+	.hero__area img.hero__slide__img {
+		height: 80rem;
+	}
+
+	/*=================*/
+	/* PLAN SECTION */
+	/*=================*/
+	.Plan__img__area {
+		max-width: 100%;
+	}
+
+	.Plan__img__area img {
+		height: 60rem;
+		-o-object-fit: cover;
+		   object-fit: cover;
+		-o-object-position: center;
+		   object-position: center;
+		width: 100%;
+		margin-bottom: -1rem;
+	}
+
+	.plan__main__text {
+		position: static;
+		max-width: 100%;
+	}
+
+	.plan__video__btn {
+		left: 50%;
+		transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		-o-transform: translate(-50%, -50%);
+	}
+
+	/*=========================*/
+	/* SOCIAL FEEDS SECTION */
+	/*=========================*/
+	.feeds__box .feeds__img {
+		width: 39rem;
+	}
+
+}
+
+@media (max-width: 1199px) {
+
+	/*=====================*/
+	/* HEADER SECTION */
+	/*=====================*/
+	.main__menu {
+		width: 45%;
+	}
+
+	/*======================*/
+	/*-- HERO SECTION --*/
+	/*======================*/
+	.hero__content {
+		left: 5rem;
+	}
+
+	/* only donate form 1 */
+	.donate__form-1 {
+		max-width: 42rem;
+		padding: 2rem;
+		right: 5rem;
+	}
+
+	/*==============================*/
+	/* CURRENT CAMPAINGS SECTION */
+	/*==============================*/
+	.campaigns__slide__btn a {
+		font-size: 1.5rem;
+	}
+
+	/*========================*/
+	/* WAYS DONATE SECTION */
+	/*========================*/
+	.ways__donate__box {
+		padding: 3rem;
+	}
+
+	/*=====================*/
+	/* SOCIAL FEEDS SECTION */
+	/*=====================*/
+	.feeds__box {
+		padding: 10rem 3rem 0;
+	}
+
+	.feeds__box .feeds__img {
+		width: auto;
+		position: static;
+		margin-top: 5rem;
+	}
+
+	/*=====================*/
+	/* FOOTER SECTION */
+	/*=====================*/
+	.footer__bottom .f-bottom-text {
+		font-size: 1.4rem !important;
+	}
+
+	/*==========================*/
+	/* DONATE PAGE STYLE */
+	/*==========================*/
+	.donation__form-2 .donate__dollar__btn button {
+		width: 11rem !important;
+	}
+
+}
+
+@media (max-width: 991px) {
+
+	/*=====================*/
+	/* HEADER SECTION */
+	/*=====================*/
+	.main__menu {
+		width: 55%;
+	}
+
+	/*=====================*/
+	/* HERO SECTION */
+	/*=====================*/
+	.hero__area img.hero__slide__img {
+		height: 55rem;
+	}
+
+	.hero__content {
+		top: 60%;
+		-webkit-transform: translateY(-60%);
+		    -ms-transform: translateY(-60%);
+		        transform: translateY(-60%);
+		text-align: center;
+		max-width: 100%;
+		width: 100%;
+		left: 0;
+	}
+
+	.hero__content .hero__title h2 {
+		font-size: 5rem;
+	}
+
+	/*- HERO SLIDER BULLET -*/
+	.swiper-container-horizontal > .swiper-pagination-bullets,
+	.swiper-pagination-custom,
+	.swiper-pagination-fraction {
+		bottom: 0rem;
+		top: 42%;
+	}
+
+	/* DONATE FORM-1 */
+	.donate__form-1 {
+		margin: 5rem auto 0rem;
+		border: 0;
+		background: var(--secondary);
+		position: static;
+		-webkit-transform: translateY(0%);
+		-ms-transform: translateY(0%);
+		transform: translateY(0%);
+	}
+
+	.donate__form-1-option .donate__form-1-option-item label {
+		font-size: 1.1rem;
+	}
+
+	/*==============================*/
+	/* CURRENT CAMPAINGS SECTION */
+	/*==============================*/
+	.campaigns__slide__btn a {
+		font-size: 1.6rem;
+	}
+
+	/*========================*/
+	/* WAYS DONATE SECTION */
+	/*========================*/
+	.ways__donate__icon {
+		margin: 0 0 3rem;
+	}
+
+	/*==========================*/
+	/* SOCIAL FEEDS SECTION */
+	/*==========================*/
+	.feeds__box .feeds__text h2 {
+		font-size: 4rem
+	}
+
+
+	/*==========================*/
+	/* DONATE PAGE STYLE */
+	/*==========================*/
+	.donation__form-2 label {
+		font-size: 1.2rem;
+	}
+
+	.donation__form-2 .donate__dollar__btn button {
+		width: 7.5rem !important;
+	}
+
+	.donation__form-2-select {
+		width: 30%;
+	}
+
+	.donation__form-2-input {
+		width: 66%;
+	}
+
+	.donate__img img {
+		height: 47.8rem;
+	}
+}
+
+@media (max-width: 767px) {
+
+	/*=====================*/
+	/* HEADER SECTION */
+	/*=====================*/
+	header nav {
+		background-color: transparent;
+	}
+
+	.main__menu {
+		width: 70%;
+	}
+
+	.header__left__side .cart {
+		margin: 0;
+	}
+
+	.header__left__side .cart .cart-link,
+	.header__left__side .calculator .calculator-link {
+		background-color: transparent;
+		font-size: 2rem;
+	}
+
+	.header__left__side .calculator {
+		border: none;
+		padding: 0;
+	}
+
+	/*=======================*/
+	/*-- SUCCOR SECTION --*/
+	/*=======================*/
+	.project__item .project__title p {
+		font-size: 1.8rem;
+	}
+
+	/*=========================*/
+	/* ACHIEVEMENTS SECTION */
+	/*=========================*/
+	.achievements__box .achievements__text h2 {
+		font-size: 3.5rem;
+	}
+
+	.achievements__box .achievements__text h3 {
+		font-size: 1.9rem;
+	}
+
+	/*======================*/
+	/* CAMPAINGS SECTION */
+	/*======================*/
+	.campaigns__wraper {
+		margin-bottom: 4rem;
+	}
+
+	.campaigns__slide__btn a {
+		font-size: 1.2rem;
+	}
+
+	/*============================*/
+	/*-- WAYS DONATE SECTION --*/
+	/*============================*/
+	.ways__donate__text h3 {
+		font-size: 1.9rem;
+	}
+
+	/*==============================*/
+	/*-- START GELLARY SECTION --*/
+	/*==============================*/
+	.overlay__text {
+		left: 1rem;
+		bottom: 1rem;
+	}
+
+	.overlay__text p span {
+		margin-right: 0;
+	}
+
+	/*==========================*/
+	/* SOCIAL FEEDS SECTION */
+	/*==========================*/
+	.feeds__box .feeds__text h2 {
+		font-size: 3.5rem;
+	}
+
+	/*==========================*/
+	/* DONATE PAGE STYLE */
+	/*==========================*/
+	.donation__form-2 label {
+		font-size: 1.4rem;
+	}
+
+	.donation__form-2 .donate__dollar__btn button {
+		width: 10rem !important;
+	}
+
+	.donation__form-2-select {
+		width: 30%;
+	}
+
+	.donation__form-2-input {
+		width: 66%;
+	}
+
+	.donate__img img {
+		height: auto !important;
+	}
+}
+
+@media (max-width: 575px) {
+
+	/*===================*/
+	/*-- VARIABLES --*/
+	/*===================*/
+	:root {
+		--f-40: 3rem;
+		--f-24: 2.3rem;
+		--f-22: 2.1rem;
+	}
+
+	/*==============================*/
+	/*-- REUSEBLE COMPONENTS --*/
+	/*==============================*/
+	.succor__section,
+	.achievements__section,
+	.ways__donate__section,
+	.gellary__section {
+		padding: 7rem 0;
+	}
+
+	.row__mt {
+		margin-top: 6rem;
+	}
+
+	.btn__primary {
+		font-size: 1.6rem;
+	}
+
+	/*==============================*/
+	/*-- REUSEBLE COMPONENTS --*/
+	/*==============================*/
+
+	/*=====================*/
+	/* HEADER SECTION */
+	/*=====================*/
+	nav .navigation,
+	.haeder__email__and__social .haeder__phone {
+		padding-left: 1rem !important;
+		padding-right: 1rem !important;
+	}
+
+	.logo a img {
+		max-width: 14rem;
+		margin-left: -1rem;
+	}
+
+	.main__menu {
+		width: 100%;
+	}
+
+	.header__email li a {
+		font-size: 1.4rem;
+	}
+
+	/*=====================*/
+	/* HERO SECTION */
+	/*=====================*/
+	.hero__area img.hero__slide__img {
+		height: 45rem;
+	}
+
+	.hero__content {
+		top: 65%;
+		-webkit-transform: translateY(-65%);
+		    -ms-transform: translateY(-65%);
+		        transform: translateY(-65%);
+	}
+
+	.hero__title {
+		margin-bottom: 2rem;
+	}
+
+	.hero__content .hero__title h2 {
+		font-size: 3.5rem;
+	}
+
+	.hero__btn a {
+		min-width: 16rem;
+	}
+
+	/*- HERO SLIDER BULLET -*/
+	.swiper-container-horizontal > .swiper-pagination-bullets,
+	.swiper-pagination-custom,
+	.swiper-pagination-fraction {
+		top: 37%;
+	}
+
+	/*=======================*/
+	/*-- SUCCOR SECTION --*/
+	/*=======================*/
+
+	.project__svg {
+		width: 13.5rem !important;
+		height: 13.5rem !important;
+	}
+
+	.project__svg svg.p_svg {
+		width: 7rem !important;
+		height: 7rem !important;
+	}
+
+	.project__item .project__title p {
+		font-size: 1.6rem;
+	}
+
+	/*======================*/
+	/* CAMPAINGS SECTION */
+	/*======================*/
+	.current__campaigns__section {
+		padding-bottom: 4rem;
+	}
+
+	.campaigns__slide__btn a {
+		font-size: 1.4rem;
+	}
+
+	/*============================*/
+	/*-- WAYS DONATE SECTION --*/
+	/*============================*/
+	.ways__donate__text h3 {
+		font-size: 2rem;
+	}
+
+	/*=====================*/
+	/*-- PLAN SECTION --*/
+	/*=====================*/
+	.plan__main__text {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+}
+
+@media (max-width: 522px) {
+
+	/*==============================*/
+	/*-- ACHIEVEMENTS SECTION --*/
+	/*==============================*/
+	.achievements__box .achievements__img {
+		width: 10rem;
+		height: 10rem;
+	}
+
+	.achievements__img .dashed {
+		width: 9rem;
+		height: 9rem;
+	}
+
+	.achievements__img .dashed img {
+		width: 5rem !important;
+	}
+
+	.achievements__box .achievements__text h2 {
+		font-size: 3rem;
+	}
+
+	/*==========================*/
+	/* DONATE PAGE STYLE */
+	/*==========================*/
+	.donation__form-2 {
+		padding: 1.5rem;
+	}
+
+	.donation__form-2 .donate__dollar__btn button:not(:last-child) {
+		margin-right: 1rem;
+	}
+
+	.donation__form-2-select {
+		width: 35%;
+	}
+
+	.donation__form-2-input {
+		width: 61%;
+	}
+
+	.donate__img img {
+		height: auto !important;
+	}
+}
+
+@media (max-width: 462px) {
+
+	/*==========================*/
+	/* DONATE PAGE STYLE */
+	/*==========================*/
+	.donate__form-2-option {
+		-webkit-box-orient: vertical !important;
+		-webkit-box-direction: normal !important;
+		    -ms-flex-direction: column !important;
+		        flex-direction: column !important;
+	}
+
+	.donate__form-2-option-item:first-child {
+		margin-bottom: 1.5rem;
+	}
+
+	.donate__form-2-option-item {
+		width: 100%;
+	}
+}
+
+@media (max-width: 450px) {
+	/*=======================*/
+	/*-- SUCCOR SECTION --*/
+	/*=======================*/
+
+	.project__svg {
+		width: 12rem !important;
+		height: 12rem !important;
+	}
+
+	.project__svg svg.p_svg {
+		width: 6rem !important;
+		height: 6rem !important;
+	}
+}
+
+@media (max-width: 399px) {
+
+	/*===================*/
+	/* HERO SECTION */
+	/*===================*/
+	.donate__form-1 {
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+	}
+
+	/*=======================*/
+	/*-- SUCCOR SECTION --*/
+	/*=======================*/
+
+	.project__svg {
+		width: 11rem !important;
+		height: 11rem !important;
+	}
+
+	.project__item .project__title p {
+		font-size: 1.5rem;
+	}
+
+}
+
+@media (max-width: 385px) {
+
+	/*==============================*/
+	/*-- START GELLARY SECTION --*/
+	/*==============================*/
+	.overlay__text h3 {
+		font-size: 1.7rem;
+		margin-bottom: 1rem;
+	}
+
+	.overlay__text p {
+		font-size: 1.1rem
+	}
+}
+
+@media (max-width: 374px) {
+
+	/*===================*/
+	/* HERO SECTION */
+	/*===================*/
+	.donate__form-1 .donate__form-1-btn button:not(:last-child) {
+		margin-right: 1rem;
+	}
+
+	/*==========================*/
+	/* DONATE PAGE STYLE */
+	/*==========================*/
+	.donation__form-2 .donate__dollar__box input::-webkit-input-placeholder {
+		/*		font-size: var(--f-14);*/
+	}
+	.donation__form-2 .donate__dollar__box input::-moz-placeholder {
+		/*		font-size: var(--f-14);*/
+	}
+	.donation__form-2 .donate__dollar__box input:-ms-input-placeholder {
+		/*		font-size: var(--f-14);*/
+	}
+	.donation__form-2 .donate__dollar__box input::-ms-input-placeholder {
+		/*		font-size: var(--f-14);*/
+	}
+	.donation__form-2 .select_mate,
+	.donation__form-2 .donate__dollar__btn button,
+	.donation__form-2 .donate__dollar__box input,
+	.donation__form-2 .donate__dollar__box input::placeholder,
+	.donate__form-2 button {
+		/*		font-size: var(--f-14);*/
+	}
+
+
+	/*==============================*/
+	/*-- ACHIEVEMENTS SECTION --*/
+	/*==============================*/
+	.achievements__box .achievements__img {
+		width: 9rem;
+		height: 9rem;
+	}
+
+	.achievements__img .dashed {
+		width: 8rem;
+		height: 8rem;
+	}
+
+	.achievements__img .dashed img {
+		width: 4rem !important;
+	}
+
+	.achievements__box .achievements__text h2 {
+		font-size: 3rem;
+	}
+
+	.achievements__box .achievements__text h3 {
+		font-size: 1.6rem;
+	}
+
+
+	/*=====================*/
+	/* FOOTER SECTION */
+	/*=====================*/
+	.footer__bottom .f-bottom-text {
+		font-size: 1.3rem !important;
+	}
+
+	.footer__limk li {
+	/*  margin-right: 0px; */
+	}
+
+	.footer__limk li:not(:last-child) a::after {
+	/*	opacity: 0; */
+	}
+}
+
+@media (max-width: 355px) {
+
+	/*=======================*/
+	/*-- HEADER SECTION --*/
+	/*=======================*/
+	.haeder__email__and__social .haeder__phone {
+		-webkit-box-orient: vertical !important;
+		-webkit-box-direction: normal !important;
+		    -ms-flex-direction: column !important;
+		        flex-direction: column !important;
+	}
+
+	.haeder__phone .header__email {
+		margin-bottom: 1rem;
+	}
+
+	/*===================*/
+	/* HERO SECTION */
+	/*===================*/
+	.donate__form-1 .donate__form-1-option {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+
+	.donate__form-1 .donate__form-1-option-item {
+		width: 100%;
+	}
+
+	.donate__form-1 .donate__form-1-option-item:first-of-type {
+		margin-bottom: 1.5rem;
+	}
+
+	/*=======================*/
+	/*-- SUCCOR SECTION --*/
+	/*=======================*/
+
+	.project__svg {
+		width: 9.5rem !important;
+		height: 9.5rem !important;
+	}
+
+	.project__svg svg.p_svg {
+		width: 5rem !important;
+		height: 5rem !important;
+	}
+}

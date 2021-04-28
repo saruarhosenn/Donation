@@ -1,0 +1,212 @@
+/*====================================================*/
+/*-- ALL DONATE FORM STYLE HERE --*/
+/*====================================================*/
+
+/*===================================*/
+/*- DONATE FORM REUSEBLE COMPONENTS -*/
+.donate__options__item {
+	cursor: pointer;
+	max-width: 18.8rem;
+	border: .1rem solid var(--primary);
+	display: block;
+}
+
+.donate__options__item input {
+	display: none;
+}
+
+.donate__options__item > label {
+	font-family: 'Muli-600';
+	display: inline-block;
+	position: relative;
+	margin-right: 16px;
+	padding-left: 24px;
+	cursor: pointer;
+	color: var(--primary);
+	font-size: var(--f-14);
+}
+
+.donate__options__item > label:before {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 0;
+	top: 50%;
+	margin-top: -8px;
+	border: 1px solid #fff;
+	border-radius: 8px;
+}
+
+.donate__options__item > label:after {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: 50%;
+	left: 8px;
+	margin-top: 0;
+	background: #fff;
+	border-radius: 4px;
+	-webkit-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+}
+
+.donate__options__item :checked + label:after {
+	height: 8px;
+	width: 8px;
+	margin-top: -4px;
+	left: 4px;
+}
+
+.donate__form-1 .donate__dollar__box {
+	background: var(--primary);
+	min-height: 6rem;
+}
+
+.donate__dollar__box .donate__decrease-btn,
+.donate__dollar__box .donate__increase-btn {
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.donate__dollar__box input::-webkit-input-placeholder {
+	font-size: 2rem;
+	font-family: 'Muli-700';
+	color: var(--secondary);
+}
+
+.donate__dollar__box input::-moz-placeholder {
+	font-size: 2rem;
+	font-family: 'Muli-700';
+	color: var(--secondary);
+}
+
+.donate__dollar__box input:-ms-input-placeholder {
+	font-size: 2rem;
+	font-family: 'Muli-700';
+	color: var(--secondary);
+}
+
+.donate__dollar__box input::-ms-input-placeholder {
+	font-size: 2rem;
+	font-family: 'Muli-700';
+	color: var(--secondary);
+}
+
+.donate__dollar__box input,
+.donate__dollar__box input::placeholder {
+	font-size: 2rem;
+	font-family: 'Muli-700';
+	color: var(--secondary);
+}
+
+.donate__dollar__btn .dollar__btn {
+	font-family: 'Muli-700';
+	font-size: var(--f-16);
+	color: var(--secondary);
+	width: 7.5rem;
+	height: 5.5rem;
+	line-height: 5.5rem;
+	background: var(--primary);
+	cursor: pointer;
+}
+
+.dollar__btn.active {
+	background-color: dodgerblue;
+	color: #fff;
+}
+
+.donate__submit__btn button {
+	min-height: 6rem;
+	background: var(--third-color);
+	width: 100%;
+	cursor: pointer;
+}
+/*- DONATE FORM REUSEBLE COMPONENTS -*/
+/*===================================*/
+
+/*==========================*/
+/*==========================*/
+/* only donate form 1 style */
+.donate__form-1 {
+	max-width: 44rem;
+	border: .3rem solid var(--primary);
+	background: rgba(0, 35, 89, 0.5);
+	position: absolute;
+	top: 60%;
+	right: 10rem;
+	z-index: 9999999;
+	-webkit-transform: translateY(-60%);
+	-ms-transform: translateY(-60%);
+	transform: translateY(-60%);
+}
+
+.donate__title h2,
+.donate__title p {
+	color: var(--primary);
+}
+
+
+/*==========================*/
+/*==========================*/
+/* only donate form 2 style */
+.donation__form-2 {
+	background: var(--secondary);
+}
+
+.donation__form-2 .donate__dollar__btn button {
+	width: 13rem !important;
+}
+
+.donation__form-2-select {
+	width: 20%;
+}
+
+.donation__form-2-input {
+	width: 77%;
+}
+
+.donation__form-2-input input {
+	padding: 21.5px 1rem;
+}
+
+.donate__img img {
+	height: 48.1rem;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+
+.donate__img {
+	position: relative;
+}
+
+.donate__img__text {
+	position: absolute;
+	right: 3rem;
+	left: 3rem;
+	bottom: 5rem;
+}
+
+.donate__img__text h3,
+.donate__img__text p {
+	color: var(--primary);
+}
+
+.donate__img__text h3 {
+	font-family: 'Muli-700';
+	font-size: 2.5rem;
+}
+
+.donate__img__text p {
+	font-size: var(--f-16);
+}
+
+.donate__img__text a {
+	font-family: 'Open-Sans-700';
+	font-size: var(--f-18);
+	color: var(--third-color);
+}
